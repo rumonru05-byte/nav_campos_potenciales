@@ -20,7 +20,7 @@ Ampliación de Robótica. Repositorio con la implementación de un módulo de na
 ## Instalación y Ejecución 🎮
 1. Clona este repositorio en tu equipo local ejecutando el siguiente comando en tu terminal:
   ```bash
-  git clone https://github.com/rumonru05-byte/practicas_nav_campos_potenciales.git
+  git clone https://github.com/rumonru05-byte/nav_campos_potenciales.git
   ```
 
 2. Abre MATLAB y navega hasta la carpeta del repositorio.
