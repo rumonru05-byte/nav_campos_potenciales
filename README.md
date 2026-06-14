@@ -1,4 +1,4 @@
-# Práctica 4: Navegación Local con Campos Potenciales 🤖
+# Práctica 4: Navegación Local con Campos Potenciales 🧲
 Ampliación de Robótica. Repositorio con la implementación de un módulo de navegación reactiva en tiempo real para evitar obstáculos utilizando el método de campos potenciales.
 
 ## 📋 Índice
