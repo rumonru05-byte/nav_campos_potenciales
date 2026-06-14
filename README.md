@@ -45,9 +45,9 @@ A continuación, se muestran varios recorridos exitosos partiendo desde diferent
 
 ### Navegación Exitosa (Diferentes Orígenes/Destinos)
 <p align="center">
-  <img src="videos/exito1.gif" width="33%" />
-  <img src="videos/exito2.gif" width="33%" />
-  <img src="videos/exito3.gif" width="33%" />
+  <img src="videos/exito1.gif" width="30%" />
+  <img src="videos/exito2.gif" width="30%" />
+  <img src="videos/exito3.gif" width="30%" />
 </p>
 
 
@@ -61,9 +61,9 @@ El método de campos potenciales es puramente reactivo y carece de planificació
 Cuando el robot se encuentra frente a una pared ancha perpendicular a su destino, o dentro de un obstáculo en forma de "U", la suma de las fuerzas de repulsión iguala y anula exactamente a la fuerza de atracción ($F_res = 0$).
 
 <p align="center">
-  <img src="videos/exito1.gif" width="33%" />
-  <img src="videos/exito2.gif" width="33%" />
-  <img src="videos/exito3.gif" width="33%" />
+  <img src="videos/exito1.gif" width="30%" />
+  <img src="videos/exito2.gif" width="30%" />
+  <img src="videos/exito3.gif" width="30%" />
 </p>
 
 **¿Es posible salir de esta situación modificando solo alfa y beta?**
@@ -74,24 +74,24 @@ Un ajuste correcto de las variables es crítico para la estabilidad del movimien
 
 #### 1. Efecto de la Distancia de Repulsión (D)
 <p align="center">
-  <img src="videos/exito1.gif" width="33%" />
-  <img src="videos/exito2.gif" width="33%" />
-  <img src="videos/exito3.gif" width="33%" />
+  <img src="videos/exito1.gif" width="30%" />
+  <img src="videos/exito2.gif" width="30%" />
+  <img src="videos/exito3.gif" width="30%" />
 </p>
-* (Explica aquí tu vídeo: Si el rango D es muy pequeño, el robot reacciona demasiado tarde y roza peligrosamente los obstáculos. Si es adecuado, el campo de fuerza lo aparta a tiempo trazando curvas amplias).
+Si el rango D es muy pequeño, el robot reacciona demasiado tarde y roza peligrosamente los obstáculos. Si es adecuado, el campo de fuerza lo aparta a tiempo trazando curvas amplias.
 
 #### 2. Efecto de la Velocidad / Tamaño de paso (v)
 <p align="center">
-  <img src="videos/exito1.gif" width="33%" />
-  <img src="videos/exito2.gif" width="33%" />
-  <img src="videos/exito3.gif" width="33%" />
+  <img src="videos/exito1.gif" width="30%" />
+  <img src="videos/exito2.gif" width="30%" />
+  <img src="videos/exito3.gif" width="30%" />
 </p>
-* (Explica aquí tu vídeo: Un tamaño de paso demasiado grande provoca oscilaciones graves o "chattering" al entrar y salir bruscamente de las zonas de repulsión de las paredes. Reducir la velocidad estabiliza la trayectoria).
+Un tamaño de paso demasiado grande provoca oscilaciones graves o "chattering" al entrar y salir bruscamente de las zonas de repulsión de las paredes. Reducir la velocidad estabiliza la trayectoria.
 
 #### 3. Equilibrio de Fuerzas (alfa frente a beta)
 <p align="center">
-  <img src="videos/exito1.gif" width="33%" />
-  <img src="videos/exito2.gif" width="33%" />
-  <img src="videos/exito3.gif" width="33%" />
+  <img src="videos/exito1.gif" width="30%" />
+  <img src="videos/exito2.gif" width="30%" />
+  <img src="videos/exito3.gif" width="30%" />
 </p>
-* (Explica aquí tu vídeo: Si el parámetro de atracción alfa es desproporcionadamente alto frente a la repulsión beta, el deseo del robot por llegar a la meta vence a su sistema de seguridad, provocando choques inminentes contra las paredes).
+Si el parámetro de atracción alfa es desproporcionadamente alto frente a la repulsión beta, el deseo del robot por llegar a la meta vence a su sistema de seguridad, provocando choques inminentes contra las paredes.
